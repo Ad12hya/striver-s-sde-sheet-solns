@@ -32,7 +32,7 @@ void zerosMat(vector<vector<int>>& matrix,int x,int y){
 
 
 int main(){
-  vector<vector<int>>matrix[[1,1,1],[1,0,1],[1,1,1]];
+  vector<vector<int>>matrix{{1,1,1},{1,0,1},{1,1,1}};
   setZeroes(matrix);
   for(auto in_vec:matrix){
     for(int i:in_vec){
