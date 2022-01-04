@@ -1,6 +1,8 @@
 #include<bits/stdc++.h>
 using namespace std;
 
+
+//main soln starts
 void zerosMat(vector<vector<int>>& matrix,int x,int y){
         int n = matrix.size();
         int m = matrix[0].size(); 
@@ -26,6 +28,8 @@ void zerosMat(vector<vector<int>>& matrix,int x,int y){
             zerosMat(matrix,i.first,i.second);
         }
     }
+//main soln ends
+
 
 int main(){
   vector<vector<int>>matrix[[1,1,1],[1,0,1],[1,1,1]];
