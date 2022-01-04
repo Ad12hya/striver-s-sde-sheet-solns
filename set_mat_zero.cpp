@@ -1,4 +1,5 @@
 #include<bits/stdc++.h>
+using namespace std;
 
 void zerosMat(vector<vector<int>>& matrix,int x,int y){
         int n = matrix.size();
